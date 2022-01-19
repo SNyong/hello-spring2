@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<!--th : 타임리프 템플릿엔진-->
+
+<p th:text="'hello ' + ${name}" >hello! empty</p>
+<!--hello! empty : 컨트롤러에서 오지않고 바로 html로 들어왔을때 뜨는거-->
+<!--컨트롤러에서 네임값이 name인것의 밸류값을 불러옴-->
+</body>
+</html>
